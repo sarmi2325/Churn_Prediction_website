@@ -1,0 +1,39 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore Streamlit app secrets or logs
+.streamlit/secrets.toml
+.streamlit/config.toml
+logs/
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+*.json
+*.h5
+
+# Ignore CSVs if large or generated
+*.csv
+churn_predictions.csv
+
+# VSCode / IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
