@@ -162,12 +162,11 @@ used **StackingClassifier** with:
 ## 📊 Evaluation Metrics
 
 
-Confusion Matrix:
-[[767 266]
- [ 95 279]]
+[[932 101]
+ [192 182]]
 
-Precision (Churn):     0.51  
-Recall (Churn):        0.75  
-F1 Score:              0.61  
-Accuracy:              74%  
-ROC-AUC Score:         0.820
+Precision (Churn):     0.64  
+Recall (Churn):        0.49  
+F1 Score:              0.55  
+Accuracy:              79%  
+ROC-AUC Score:         0.834
